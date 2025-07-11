@@ -6,10 +6,11 @@
     <title>KITASTAY - Unlock your perfect stay</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:;">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link href="assets/img/faviconkita.png" rel="icon" />
+    <link href="assets/img/faviconkita.png" rel="apple-touch-icon" />
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect" />
@@ -38,6 +39,12 @@
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet" />
 
+    <style>
+      .pb-30 {
+        padding-bottom: 15px !important;
+      }
+    </style>
+
     <!-- =======================================================
   * Template Name: FlexStart
   * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
@@ -54,7 +61,7 @@
       >
         <a href="index.html" class="logo d-flex align-items-center me-auto">
           <!-- Uncomment the line below if you also wish to use an image logo -->
-          <img src="assets/img/logo-kita4.png" alt="" />
+          <img src="assets/img/logoheader.webp" alt="" />
           <h1 class="sitename">Kita Stay</h1>
         </a>
 
@@ -146,7 +153,7 @@
               class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center"
             >
               <h1 data-aos="fade-up">
-                Mitra Properti yang Lebih Mengerti Anda
+                Kita Stay: Mitra Properti yang Lebih Mengerti Anda
               </h1>
               <p data-aos="fade-up" data-aos-delay="100">
                 Kita Stay adalah mitra pengelolaan properti yang hadir untuk
@@ -173,7 +180,7 @@
               data-aos="zoom-out"
             >
               <img
-                src="assets/img/logo-kita4.png"
+              src="assets/img/logoheader.webp"
                 class="img-fluid animated"
                 alt=""
               />
@@ -188,30 +195,40 @@
         <div class="container" data-aos="fade-up">
           <div class="row gx-0">
             <div
+              class="col-lg-6 d-flex align-items-center"
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
+              <img src="assets/img/1.png" class="img-fluid" alt="" />
+              <!-- <a href="http://www.freepik.com">Designed by Freepik</a> -->
+            </div>
+
+            <div
               class="col-lg-6 d-flex flex-column justify-content-center"
               data-aos="fade-up"
               data-aos-delay="200"
             >
               <div class="content">
-                <h2>VISI</h2>
-                <!-- <h2>
-                  Expedita voluptas omnis cupiditate totam eveniet nobis sint
-                  iste. Dolores est repellat corrupti reprehenderit.
-                </h2> -->
+                <!-- <h1>TENTANG KAMI</h1> -->
+                <h2>
+                  TENTANG KAMI
+                </h2>
                 <p>
-                  Membangun ekosistem sewa properti yang saling menguntungkan,
-                  di mana kenyamanan penyewa bertemu dengan profitabilitas
-                  pemilik dalam sebuah hubungan yang terpercaya.
+                  Kita Stay adalah mitra andal dalam pengelolaan properti sewa, yang hadir untuk membantu Anda memaksimalkan potensi aset menjadi sumber pendapatan yang optimal, tanpa repot.
+
+Kami membangun ekosistem properti yang sehat dan saling menguntungkan—di mana kenyamanan penyewa bertemu dengan keuntungan pemilik dalam hubungan yang berbasis kepercayaan, transparansi, dan profesionalisme jangka panjang.
+
+Kami percaya, pengelolaan properti bukan sekadar transaksi, tetapi tentang menciptakan nilai dan membangun komunitas yang berkelanjutan.
                 </p>
-                <h2>MISI</h2>
+                <h2>FOKUS KAMI</h2>
                 <!-- <h2>
                   Expedita voluptas omnis cupiditate totam eveniet nobis sint
-                  iste. Dolores est repellat corrupti reprehenderit.
+                  iste. Dolores est repelat corrupti reprehenderit.
                 </h2> -->
                 <ol>
                   <li>
                     Menciptakan jembatan yang kuat antara kebutuhan penyewa dan
-                    penawaran properti yang berkualitas.
+                    penawaran properti yang berkualitas
                   </li>
                   <li>
                     Menjalin kemitraan jangka panjang dengan pemilik properti
@@ -222,7 +239,7 @@
                     melalui kami.
                   </li>
                 </ol>
-                <div class="text-center text-lg-start">
+                <!-- <div class="text-center text-lg-start">
                   <a
                     href="#"
                     class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center"
@@ -230,16 +247,8 @@
                     <span>Read More</span>
                     <i class="bi bi-arrow-right"></i>
                   </a>
-                </div>
+                </div> -->
               </div>
-            </div>
-
-            <div
-              class="col-lg-6 d-flex align-items-center"
-              data-aos="zoom-out"
-              data-aos-delay="200"
-            >
-              <img src="assets/img/about.jpg" class="img-fluid" alt="" />
             </div>
           </div>
         </div>
@@ -249,7 +258,7 @@
       <!-- Values Section -->
       <section id="values" class="values section">
         <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
+        <div class="container section-title pb-30" data-aos="fade-up">
           <h2>Our Values</h2>
           <p>Unlock Your Perfect Stay<br /></p>
         </div>
@@ -259,7 +268,7 @@
           <div class="row gy-4">
             <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
               <div class="card">
-                <img src="assets/img/Cust.png" class="img-fluid" alt="" />
+                <img src="assets/img/CustKita.png" class="img-fluid" alt="" />
                 <h3>Customers to KitaStay</h3>
                 <p>
                   KITASTAY akan menjadi pilihan pertama bagi para Penyewa, yang
@@ -269,10 +278,9 @@
               </div>
             </div>
             <!-- End Card Item -->
-
             <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
               <div class="card">
-                <img src="assets/img/KitaStay.png" class="img-fluid" alt="" />
+                <img src="assets/img/kita.png" class="img-fluid" alt="" />
                 <h3>KitaStay</h3>
                 <p>
                   KITASTAY hadir menjadi jembatan untuk membuka potensi penuh
@@ -285,7 +293,7 @@
 
             <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
               <div class="card">
-                <img src="assets/img/owner.png" class="img-fluid" alt="" />
+                <img src="assets/img/owner (2).png" class="img-fluid" alt="" />
                 <h3>KitaStay to Owner</h3>
                 <p>
                   KITASTAY memastikan keuntungan optimal bagi Anda pemilik
@@ -302,88 +310,7 @@
       </section>
       <!-- /Values Section -->
 
-      <!-- Stats Section -->
-      <section id="stats" class="stats section">
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="row gy-4">
-            <div class="col-lg-3 col-md-6">
-              <div class="stats-item d-flex align-items-center w-100 h-100">
-                <i class="bi bi-emoji-smile color-blue flex-shrink-0"></i>
-                <div>
-                  <span
-                    data-purecounter-start="0"
-                    data-purecounter-end="232"
-                    data-purecounter-duration="1"
-                    class="purecounter"
-                  ></span>
-                  <p>Happy Clients</p>
-                </div>
-              </div>
-            </div>
-            <!-- End Stats Item -->
-
-            <div class="col-lg-3 col-md-6">
-              <div class="stats-item d-flex align-items-center w-100 h-100">
-                <i
-                  class="bi bi-journal-richtext color-orange flex-shrink-0"
-                  style="color: #ee6c20"
-                ></i>
-                <div>
-                  <span
-                    data-purecounter-start="0"
-                    data-purecounter-end="521"
-                    data-purecounter-duration="1"
-                    class="purecounter"
-                  ></span>
-                  <p>Projects</p>
-                </div>
-              </div>
-            </div>
-            <!-- End Stats Item -->
-
-            <div class="col-lg-3 col-md-6">
-              <div class="stats-item d-flex align-items-center w-100 h-100">
-                <i
-                  class="bi bi-headset color-green flex-shrink-0"
-                  style="color: #15be56"
-                ></i>
-                <div>
-                  <span
-                    data-purecounter-start="0"
-                    data-purecounter-end="1463"
-                    data-purecounter-duration="1"
-                    class="purecounter"
-                  ></span>
-                  <p>Hours Of Support</p>
-                </div>
-              </div>
-            </div>
-            <!-- End Stats Item -->
-
-            <div class="col-lg-3 col-md-6">
-              <div class="stats-item d-flex align-items-center w-100 h-100">
-                <i
-                  class="bi bi-people color-pink flex-shrink-0"
-                  style="color: #bb0852"
-                ></i>
-                <div>
-                  <span
-                    data-purecounter-start="0"
-                    data-purecounter-end="15"
-                    data-purecounter-duration="1"
-                    class="purecounter"
-                  ></span>
-                  <p>Hard Workers</p>
-                </div>
-              </div>
-            </div>
-            <!-- End Stats Item -->
-          </div>
-        </div>
-      </section>
-      <!-- /Stats Section -->
-
-      <!-- Features Section -->
+      <!-- Alt Features Section -->
       <section id="features" class="features section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
@@ -391,70 +318,7 @@
           <p>Meningkatkan estetika dan fungsi properti melalui desain, renovasi, serta konten visual berkualitas tinggi untuk mendukung pemasaran di tengah tantangan ekonomi.<br /></p>
         </div>
         <!-- End Section Title -->
-
-        <!-- <div class="container">
-          <div class="row gy-5">
-            <div class="col-xl-6" data-aos="zoom-out" data-aos-delay="100">
-              <img src="assets/img/features.png" class="img-fluid" alt="" />
-            </div>
-
-            <div class="col-xl-6 d-flex">
-              <div class="row align-self-center gy-4">
-                <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-                  <div class="feature-box d-flex align-items-center">
-                    <i class="bi bi-check"></i>
-                    <h3>Eos aspernatur rem</h3>
-                  </div>
-                </div> -->
-                <!-- End Feature Item -->
-
-                <!-- <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-                  <div class="feature-box d-flex align-items-center">
-                    <i class="bi bi-check"></i>
-                    <h3>Facilis neque ipsa</h3>
-                  </div>
-                </div> -->
-                <!-- End Feature Item -->
-
-                <!-- <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
-                  <div class="feature-box d-flex align-items-center">
-                    <i class="bi bi-check"></i>
-                    <h3>Volup amet volupt</h3>
-                  </div>
-                </div> -->
-                <!-- End Feature Item -->
-
-                <!-- <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
-                  <div class="feature-box d-flex align-items-center">
-                    <i class="bi bi-check"></i>
-                    <h3>Rerum omnis sint</h3>
-                  </div>
-                </div> -->
-                <!-- End Feature Item -->
-
-                <!-- <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
-                  <div class="feature-box d-flex align-items-center">
-                    <i class="bi bi-check"></i>
-                    <h3>Alias possimus</h3>
-                  </div>
-                </div> -->
-                <!-- End Feature Item -->
-
-                <!-- <div class="col-md-6" data-aos="fade-up" data-aos-delay="700">
-                  <div class="feature-box d-flex align-items-center">
-                    <i class="bi bi-check"></i>
-                    <h3>Repellendus molli</h3>
-                  </div>
-                </div> -->
-                <!-- End Feature Item -->
-              <!-- </div>
-            </div>
-          </div>
-        </div>
-      </section> -->
-      <!-- /Features Section -->
-
-      <!-- Alt Features Section -->
+       
       <section id="alt-features" class="alt-features section">
         <div class="container">
           <div class="row gy-5">
@@ -557,12 +421,164 @@ terbaik sesuai kondisi pasar.
       </section>
       <!-- /Alt Features Section -->
 
+      <!-- Stats Section -->
+      <section id="stats" class="stats section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center w-100 h-100">
+                <i class="bi bi-person-check color-blue flex-shrink-0"></i>
+                <div>
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="12"
+                    data-purecounter-duration="1"
+                    class="purecounter"
+                  ></span>
+                  <p>Happy Owner</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Stats Item -->
+
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center w-100 h-100">
+                <i
+                  class="bi bi-house-door color-orange flex-shrink-0"
+                  style="color: #ee6c20"
+                ></i>
+                <div>
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="15"
+                    data-purecounter-duration="1"
+                    class="purecounter"
+                  ></span>
+                  <p>Unit Managed</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Stats Item -->
+
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center w-100 h-100">
+                <i
+                  class="bi bi-clock color-green flex-shrink-0"
+                  style="color: #15be56"
+                ></i>
+                <div>
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="1463"
+                    data-purecounter-duration="1"
+                    class="purecounter"
+                  ></span>
+                  <p>Jam Operasional</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Stats Item -->
+
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center w-100 h-100">
+                <i
+                  class="bi bi-people color-pink flex-shrink-0"
+                  style="color: #bb0852"
+                ></i>
+                <div>
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="15"
+                    data-purecounter-duration="1"
+                    class="purecounter"
+                  ></span>
+                  <p>Hard Workers</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Stats Item -->
+          </div>
+        </div>
+      </section>
+      <!-- /Stats Section -->
+
+      <!-- Features Section -->
+      <!-- <section id="features" class="features section"> -->
+        <!-- Section Title -->
+        <!-- <div class="container section-title" data-aos="fade-up">
+          <h2>Nilai Inti</h2>
+          <p>Kita Stay berkomitmen memberi pengalaman sewa properti MUDAH dan MENGUNTUNGKAN bagi setiap klien<br /></p>
+        </div> -->
+        <!-- End Section Title -->
+
+        <!-- <div class="container">
+          <div class="row gy-5">
+            <div class="col-xl-6" data-aos="zoom-out" data-aos-delay="100">
+              <img src="assets/img/features.png" class="img-fluid" alt="" />
+            </div>
+
+            <div class="col-xl-6 d-flex">
+              <div class="row align-self-center gy-4">
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                  <div class="feature-box d-flex align-items-center">
+                    <i class="bi bi-check"></i>
+                    <h3>Kepercayaan</h3>
+                  </div>
+                </div> -->
+                <!-- End Feature Item -->
+
+                <!-- <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                  <div class="feature-box d-flex align-items-center">
+                    <i class="bi bi-check"></i>
+                    <h3>Kemitraan</h3>
+                  </div>
+                </div> -->
+                <!-- End Feature Item -->
+
+                <!-- <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                  <div class="feature-box d-flex align-items-center">
+                    <i class="bi bi-check"></i>
+                    <h3>Kenyamanan</h3>
+                  </div>
+                </div> -->
+                <!-- End Feature Item -->
+
+                <!-- <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                  <div class="feature-box d-flex align-items-center">
+                    <i class="bi bi-check"></i>
+                    <h3>Inovasi</h3>
+                  </div>
+                </div> -->
+                <!-- End Feature Item -->
+
+                <!-- <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
+                  <div class="feature-box d-flex align-items-center">
+                    <i class="bi bi-check"></i>
+                    <h3>Responsivitas</h3>
+                  </div>
+                </div> -->
+                <!-- End Feature Item -->
+
+                <!-- <div class="col-md-6" data-aos="fade-up" data-aos-delay="700">
+                  <div class="feature-box d-flex align-items-center">
+                    <i class="bi bi-check"></i>
+                    <h3>Repellendus molli</h3>
+                  </div>
+                </div> -->
+                <!-- End Feature Item -->
+              <!-- </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- /Features Section -->
+
       <!-- Services Section -->
       <section id="services" class="services section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>Services</h2>
-          <p>Check Our Services<br /></p>
+          <h2>Layanan Kami</h2>
+          <p>Layanan yang Kami Tawarkan<br /></p>
         </div>
         <!-- End Section Title -->
 
@@ -574,14 +590,12 @@ terbaik sesuai kondisi pasar.
               data-aos-delay="100"
             >
               <div class="service-item item-cyan position-relative">
-                <i class="bi bi-activity icon"></i>
-                <h3>Nesciunt Mete</h3>
+                <i class="bi bi-megaphone icon"></i>
+                <h3>Pemasaran & Manajemen Properti</h3>
                 <p>
-                  Provident nihil minus qui consequatur non omnis maiores. Eos
-                  accusantium minus dolores iure perferendis tempore et
-                  consequatur.
+                  Kami menangani semua aspek pemasaran properti Anda, mulai dari pembuatan konten visual profesional, pemasangan iklan di berbagai platform, hingga proses seleksi dan manajemen penyewa. Tujuannya adalah memastikan properti Anda mendapatkan eksposur maksimal dan dihuni oleh penyewa berkualitas.
                 </p>
-                <a href="#" class="read-more stretched-link"
+                <a href="service-details.html" class="read-more stretched-link"
                   ><span>Read More</span> <i class="bi bi-arrow-right"></i
                 ></a>
               </div>
@@ -594,13 +608,12 @@ terbaik sesuai kondisi pasar.
               data-aos-delay="200"
             >
               <div class="service-item item-orange position-relative">
-                <i class="bi bi-broadcast icon"></i>
-                <h3>Eosle Commodi</h3>
+                <i class="bi bi-wrench-adjustable-circle icon"></i>
+                <h3>Perawatan & Perbaikan Secara Rutin</h3>
                 <p>
-                  Ut autem aut autem non a. Sint sint sit facilis nam iusto
-                  sint. Libero corrupti neque eum hic non ut nesciunt dolorem.
+                  Tim kami siap melakukan perawatan rutin dan menangani perbaikan dengan cepat dan efisien. Kami memastikan properti Anda selalu dalam kondisi prima, sehingga kenyamanan penyewa terjaga dan nilai aset Anda tetap optimal.
                 </p>
-                <a href="#" class="read-more stretched-link"
+                <a href="service-details.html" class="read-more stretched-link"
                   ><span>Read More</span> <i class="bi bi-arrow-right"></i
                 ></a>
               </div>
@@ -613,11 +626,10 @@ terbaik sesuai kondisi pasar.
               data-aos-delay="300"
             >
               <div class="service-item item-teal position-relative">
-                <i class="bi bi-easel icon"></i>
-                <h3>Ledo Markt</h3>
+                <i class="bi bi-graph-up-arrow icon"></i>
+                <h3>Optimalisasi Harga Sewa & Profitabilitas</h3>
                 <p>
-                  Ut excepturi voluptatem nisi sed. Quidem fuga consequatur.
-                  Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.
+                  Kami menggunakan analisis pasar mendalam dan strategi penetapan harga dinamis untuk memastikan properti Anda selalu disewakan dengan harga terbaik. Tujuan kami adalah memaksimalkan pendapatan sewa dan profitabilitas aset Anda secara berkelanjutan.
                 </p>
                 <a href="#" class="read-more stretched-link"
                   ><span>Read More</span> <i class="bi bi-arrow-right"></i
@@ -632,13 +644,12 @@ terbaik sesuai kondisi pasar.
               data-aos-delay="400"
             >
               <div class="service-item item-red position-relative">
-                <i class="bi bi-bounding-box-circles icon"></i>
-                <h3>Asperiores Commodi</h3>
+                <i class="bi bi-palette icon"></i>
+                <h3>Desain & Renovasi Interior</h3>
                 <p>
-                  Non et temporibus minus omnis sed dolor esse consequatur.
-                  Cupiditate sed error ea fuga sit provident adipisci neque.
+                  Kami membantu meningkatkan nilai jual dan daya tarik properti Anda melalui layanan desain interior dan renovasi. Dari konsep hingga eksekusi, kami mengubah properti Anda menjadi ruang yang fungsional dan estetis sesuai tren pasar terkini.
                 </p>
-                <a href="#" class="read-more stretched-link"
+                <a href="service-details.html" class="read-more stretched-link"
                   ><span>Read More</span> <i class="bi bi-arrow-right"></i
                 ></a>
               </div>
@@ -654,8 +665,7 @@ terbaik sesuai kondisi pasar.
                 <i class="bi bi-calendar4-week icon"></i>
                 <h3>Velit Doloremque.</h3>
                 <p>
-                  Cumque et suscipit saepe. Est maiores autem enim facilis ut
-                  aut ipsam corporis aut. Sed animi at autem alias eius labore.
+                  Keamanan dan Perlindungan Aset
                 </p>
                 <a href="#" class="read-more stretched-link"
                   ><span>Read More</span> <i class="bi bi-arrow-right"></i
@@ -669,7 +679,7 @@ terbaik sesuai kondisi pasar.
               data-aos="fade-up"
               data-aos-delay="600"
             >
-              <div class="service-item item-pink position-relative">
+              <!-- <div class="service-item item-pink position-relative">
                 <i class="bi bi-chat-square-text icon"></i>
                 <h3>Dolori Architecto</h3>
                 <p>
@@ -680,7 +690,7 @@ terbaik sesuai kondisi pasar.
                   ><span>Read More</span> <i class="bi bi-arrow-right"></i
                 ></a>
               </div>
-            </div>
+            </div> -->
             <!-- End Service Item -->
           </div>
         </div>
@@ -698,37 +708,37 @@ terbaik sesuai kondisi pasar.
   <div class="container">
     <div class="row gy-4">
       
-      <!-- Sesi 1 - Terbuka -->
+      <!-- Sesi 1 - Terkunci -->
       <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
-        <div class="pricing-tem">
-          <span class="featured">OPEN NOW</span>
-          <h3 style="color: #7a0f16">Sesi 1</h3>
+        <div class="pricing-tem locked">
+          <h3>Sesi 1</h3>
           <div class="price"><sup>Rp</sup>1.000.000<span> / Thn</span></div>
-          <div class="icon"><i class="bi bi-bell" style="color: #f37820"></i></div>
+          <div class="icon"><i class="bi bi-lock"></i></div>
           <ul>
             <li>Slot 1-10</li>
             <li>Harga Terbaik</li>
             <li>Dukungan Penuh</li>
-            <li>Prioritas Listing</li>
+            <li class="na">Prioritas Listing</li>
           </ul>
-          <a href="https://wa.me/6281234567890" target="_blank" class="btn-buy">Contact Us</a>
+          <a href="#" class="btn-buy disabled">Locked</a>
         </div>
       </div>
 
-      <!-- Sesi 2 - Terkunci -->
+      <!-- Sesi 2 - Terbuka -->
       <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
-        <div class="pricing-tem locked">
-          <h3>Sesi 2</h3>
+        <div class="pricing-tem">
+          <span class="featured">OPEN NOW</span>
+          <h3 style="color: #7a0f16">Sesi 2</h3>
           <div class="price"><sup>Rp</sup>1.200.000<span> / Thn</span></div>
-          <div class="icon"><i class="bi bi-lock"></i></div>
+          <div class="icon"><i class="bi bi-bell" style="color: #f37820"></i></div>
           <ul>
             <li>Slot 11-20</li>
             <li>Harga Terjangkau</li>
             <li>Full Service</li>
             <li>Listing Aktif</li>
-            <li class="na">Free Setup</li>
+            <li>Free Setup</li>
           </ul>
-          <a href="#" class="btn-buy disabled">Locked</a>
+          <a href="https://wa.me/6281234567890" target="_blank" class="btn-buy">Contact Us</a>
         </div>
       </div>
 
@@ -1908,7 +1918,7 @@ terbaik sesuai kondisi pasar.
                       >
                     </p>
                     <p>
-                      <a href="https://wa.me/6285219911587" target="_blank"
+                      <a href="https://wa.me/6285219911587" target="_blank" rel="noopener noreferrer"
                         >+62 852-1991-1587</a
                       >
                     </p>
@@ -1938,13 +1948,7 @@ terbaik sesuai kondisi pasar.
             </div>
 
             <div class="col-lg-6">
-              <form
-                action="forms/contact.php"
-                method="post"
-                class="php-email-form"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
+              <form id="whatsapp-form" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
                 <div class="row gy-4">
                   <div class="col-md-6">
                     <input
@@ -1970,8 +1974,35 @@ terbaik sesuai kondisi pasar.
                     <input
                       type="text"
                       class="form-control"
-                      name="subject"
-                      placeholder="Subject"
+                      name="phone"
+                      placeholder="No Telp"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-12">
+                    <select class="form-select" name="apartment_location" required="">
+                      <option value="">Pilih Lokasi Apartemen</option>
+                      <option value="Transpark Cibubur">Transpark Cibubur</option>
+                    </select>
+                  </div>
+
+                  <div class="col-md-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="tower"
+                      placeholder="Tower"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-md-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="unit_number"
+                      placeholder="Nomor Unit"
                       required=""
                     />
                   </div>
@@ -1987,13 +2018,7 @@ terbaik sesuai kondisi pasar.
                   </div>
 
                   <div class="col-12 text-center">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">
-                      Your message has been sent. Thank you!
-                    </div>
-
-                    <button type="submit">Send Message</button>
+                    <button type="button" id="send-whatsapp" class="btn btn-primary">Send Message</button>
                   </div>
                 </div>
               </form>
@@ -2006,143 +2031,49 @@ terbaik sesuai kondisi pasar.
     </main>
 
     <footer id="footer" class="footer">
-      <div class="footer-newsletter">
-        <div class="container">
-          <div class="row justify-content-center text-center">
-            <div class="col-lg-6">
-              <h4>Join Our Newsletter</h4>
-              <p>
-                Subscribe to our newsletter and receive the latest news about
-                our products and services!
-              </p>
-              <form
-                action="forms/newsletter.php"
-                method="post"
-                class="php-email-form"
-              >
-                <div class="newsletter-form">
-                  <input type="email" name="email" /><input
-                    type="submit"
-                    value="Subscribe"
-                  />
-                </div>
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">
-                  Your subscription request has been sent. Thank you!
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container footer-top">
-        <div class="row gy-4">
-          <div class="col-lg-4 col-md-6 footer-about">
-            <a href="index.html" class="d-flex align-items-center">
-              <span class="sitename">FlexStart</span>
-            </a>
-            <div class="footer-contact pt-3">
-              <p>A108 Adam Street</p>
-              <p>New York, NY 535022</p>
-              <p class="mt-3">
-                <strong>Phone:</strong> <span>+1 5589 55488 55</span>
-              </p>
-              <p><strong>Email:</strong> <span>info@example.com</span></p>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-              <li>
-                <i class="bi bi-chevron-right"></i> <a href="#">About us</a>
-              </li>
-              <li>
-                <i class="bi bi-chevron-right"></i> <a href="#">Services</a>
-              </li>
-              <li>
-                <i class="bi bi-chevron-right"></i>
-                <a href="#">Terms of service</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li>
-                <i class="bi bi-chevron-right"></i> <a href="#">Web Design</a>
-              </li>
-              <li>
-                <i class="bi bi-chevron-right"></i>
-                <a href="#">Web Development</a>
-              </li>
-              <li>
-                <i class="bi bi-chevron-right"></i>
-                <a href="#">Product Management</a>
-              </li>
-              <li>
-                <i class="bi bi-chevron-right"></i> <a href="#">Marketing</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-12">
-            <h4>Follow Us</h4>
-            <p>
-              Cras fermentum odio eu feugiat lide par naso tierra videa magna
-              derita valies
-            </p>
-            <div class="social-links d-flex">
-              <a href=""><i class="bi bi-twitter-x"></i></a>
-              <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
-              <a href=""><i class="bi bi-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container copyright text-center mt-4">
-        <p>
-          © <span>Copyright</span>
-          <strong class="px-1 sitename">FlexStart</strong>
-          <span>All Rights Reserved</span>
-        </p>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by
-          <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by
-          <a href=“https://themewagon.com>ThemeWagon
-        </div>
-      </div>
+      <!-- ... (rest of your footer content) ... -->
     </footer>
 
-    <!-- Scroll Top -->
-    <a
-      href="#"
-      id="scroll-top"
-      class="scroll-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
-    ></a>
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
 
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+
+    <script>
+      document.getElementById('send-whatsapp').addEventListener('click', function() {
+        const name = document.querySelector('#whatsapp-form input[name="name"]').value;
+        const email = document.querySelector('#whatsapp-form input[name="email"]').value;
+        const phone = document.querySelector('#whatsapp-form input[name="phone"]').value;
+        const apartmentLocation = document.querySelector('#whatsapp-form select[name="apartment_location"]').value;
+        const tower = document.querySelector('#whatsapp-form input[name="tower"]').value;
+        const unitNumber = document.querySelector('#whatsapp-form input[name="unit_number"]').value;
+        const message = document.querySelector('#whatsapp-form textarea[name="message"]').value;
+
+        const whatsappNumber = '6285157500881';
+        let whatsappMessage = `Halo, saya ${name}.`;
+        if (email) whatsappMessage += ` Email saya: ${email}.`;
+        if (phone) whatsappMessage += ` Nomor telepon: ${phone}.`;
+        if (apartmentLocation) whatsappMessage += ` Saya tertarik dengan bergabung dengan KITASTAY dan memiliki apartemen di ${apartmentLocation}.`;
+        if (tower) whatsappMessage += ` Tower: ${tower}.`;
+        if (unitNumber) whatsappMessage += ` Nomor Unit: ${unitNumber}.`;
+        if (message) whatsappMessage += ` Pesan: ${message}.`;
+
+        const whatsappURL = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${encodeURIComponent(whatsappMessage)}`;
+        window.open(whatsappURL, '_blank');
+      });
+    </script>
   </body>
 </html>

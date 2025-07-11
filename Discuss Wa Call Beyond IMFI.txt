@@ -1,0 +1,13 @@
+Discuss Wa Call Beyond IMFI
+Date: 07/07/2025    13:00
+
+1. Untuk case nomor agent terblock: Akan ada buffer management, dimana 1 agent 1 nomor dan backupnya. jika ada nomor yang terbanned maka akan otomatis terganti
+2. Feedback poin no 2: Ini kebutuhan penelfonan diluar data penugasan pada umumnya. Hanya perlu media penelfonan dan recordingnya (jika memungkinkan bisa menyimpan nama)
+3. Feedback poin no 3: Monitoring wa call akan dilakukan di next phase
+4. Feedback poin no 5: Penambahan no telfon wa call sama persis dengan penambahan no telfon gsm
+5. Feedback needs improvement: Diberikan notifikasi call terhubung/noan/tidak tersedia
+6. Report dari penambahan kolom Final Call: Tambah kolom baru untuk Final Call. untuk yang kosong (tidak aktif/Noan/Invalid) akan diisi - saja
+7. Tambahan kolom Final Call di Handling History. Untuk data-data yang lama akan dikosongkan dan diisi dengan data baru after live 
+8. Handling History:
+9. Kode Hasil FU: Tidak ada penambahan kode, ini berupa turunan dari final result. Hanya penambahan kolom di report berupa Final Call
+10. 

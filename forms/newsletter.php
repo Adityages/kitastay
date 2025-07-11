@@ -9,6 +9,15 @@
   // Replace contact@example.com with your real receiving email address
   $receiving_email_address = 'contact@example.com';
 
+  // Basic validation and sanitization
+  if (empty($_POST['email'])) {
+      die('Please enter an email address.');
+  }
+
+  if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+      die('Invalid email format.');
+  }
+
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
     include( $php_email_form );
   } else {
@@ -18,10 +27,12 @@
   $contact = new PHP_Email_Form;
   $contact->ajax = true;
   
+  $sanitized_email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+
   $contact->to = $receiving_email_address;
-  $contact->from_name = $_POST['email'];
-  $contact->from_email = $_POST['email'];
-  $contact->subject ="New Subscription: " . $_POST['email'];
+  $contact->from_name = $sanitized_email;
+  $contact->from_email = $sanitized_email;
+  $contact->subject ="New Subscription: " . htmlspecialchars($_POST['email']);
 
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
   /*
@@ -33,7 +44,7 @@
   );
   */
 
-  $contact->add_message( $_POST['email'], 'Email');
+  $contact->add_message( $sanitized_email, 'Email');
 
   echo $contact->send();
 ?>
