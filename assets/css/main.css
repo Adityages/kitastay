@@ -1999,6 +1999,17 @@ section,
   box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
 }
 
+/* Custom styles for btn-primary to match accent color */
+.btn-primary {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.btn-primary:hover {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+  border-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+}
+
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
   font-weight: 700;
